@@ -1,0 +1,44 @@
+.header {
+    background-color: #2980B9;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    .headerContainer {
+        max-width: 1200px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .logoContainer {
+            font-size: 2.420rem;
+            font-weight: 700;
+
+            p {
+                color: greenyellow;
+                
+                span {
+                    color: white;
+                }
+            }
+        }
+
+        .right {
+            display: flex;
+            align-items: center;
+            color: white;
+
+            p {
+                font-size: 1.21rem;
+                padding: 10px;
+
+                i {
+                    padding-left: 0.420rem;
+                }
+            }
+        }
+    }
+}
