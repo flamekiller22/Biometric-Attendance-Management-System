@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import CurrentFunds from '../components/CurrentFunds/currentfunds'
 import SiteHeader from '../components/navigation/header/header'
+import RecentTransactions from '../components/RecentTransactions/recentTransactions'
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
           <CurrentFunds />
         </div>
         <div className='currentfunds'>
-          <CurrentFunds />
+          <RecentTransactions />
         </div>
       </div>
     </div>
