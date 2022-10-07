@@ -19,7 +19,13 @@ a {
   text-decoration: none;
 }
 
-.main {
+.welcome {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0.5rem;
+}
+
+.main-1 {
   max-width: 1200px;
   width: 100%;
   display: flex;
@@ -29,6 +35,20 @@ a {
 }
 
 .currentfunds {
+  width: 50%;
+  margin: 20px;
+}
+
+.main-2 {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.addfunds {
   width: 50%;
   margin: 20px;
 }

@@ -1,3 +1,4 @@
+import { signOut } from 'next-auth/react'
 import styles from './header.module.scss'
 
 export default function SiteHeader() {
@@ -8,7 +9,7 @@ export default function SiteHeader() {
                 <p>Cyber<span>Pe</span></p>
             </div>
             <div className={styles.right}>
-                <p>
+                <p onClick={signOut}>
                     Log Out
                     <i className='fa fa-sign-out' />
                 </p>
