@@ -6,7 +6,7 @@ export default function SiteHeader() {
     <header className={styles.header}>
         <div className={styles.headerContainer}>
             <div className={styles.logoContainer}>
-                <p>Cyber<span>Pe</span></p>
+                <p>VIT <span>Bhopal</span></p>
             </div>
             <div className={styles.right}>
                 <p onClick={signOut}>

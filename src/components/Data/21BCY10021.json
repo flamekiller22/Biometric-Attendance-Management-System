@@ -1,0 +1,16 @@
+{
+    "classes": [
+      {
+        "class_id": "ABC1",
+        "class_name": "Digital Logic And Design",
+        "attended_classes": 0,
+        "total_classes": 0
+      },
+      {
+        "class_id": "ABC2",
+        "class_name": "Data Structures and Algorithms",
+        "attended_classes": 0,
+        "total_classes": 0
+      }
+    ]
+  }

@@ -1,9 +1,9 @@
-.currentFunds {
+.averageAttendance {
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 12px;
     height: 250px;
 
-    .currentFundsContainer {
+    .averageAttendanceContainer {
         padding: 1rem 2rem;
         height: 100%;
         position: relative;
@@ -17,9 +17,9 @@
             height: 90%;
 
             h2 {
-                &::before {
-                    content: '₹';
-                    padding-right: 0.1rem;
+                &::after {
+                    content: '%';
+                    padding-left: 0.1rem;
                 }
 
                 font-size: 4rem;

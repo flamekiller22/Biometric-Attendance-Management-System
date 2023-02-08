@@ -10,11 +10,11 @@ const authOptions = {
     ],
     secret: process.env.SECRET,
     callbacks: {
-        async signIn({ profile, account }) {
-            if (!profile.email.endsWith('@vitbhopal.ac.in')) return false
-            // account.email = profile.email
-            return true
-        },
+        // async signIn({ profile, account }) {
+        //     if (!profile.email.endsWith('@vitbhopal.ac.in')) return false
+        //     // account.email = profile.email
+        //     return true
+        // },
         async jwt({ token, account }) {
             if (account?.accessToken) {
                 token.accessToken = account.accessToken

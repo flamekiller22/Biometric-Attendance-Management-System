@@ -1,9 +1,9 @@
-.recentTransactions {
+.allClasses {
     box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.5);
     border-radius: 12px;
-    height: 250px;
+    height: 260px;
 
-    .recentTransactionsContainer {
+    .allClassesContainer {
         padding: 1rem 2rem;
         height: 100%;
         position: relative;
@@ -16,25 +16,31 @@
         .body {
             height: 90%;
 
-            .transactionsContainer {
+            .classesContainer {
                 max-height: 83%;
                 overflow-y: scroll;
 
-                .transaction {
+                .class {
                     padding: 0.420rem;
                     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
     
-                    .transactionContainer {
+                    .classContainer {
                         display: flex;
                         width: 100%;
     
-                        .transactionInfo {
-                            flex: 7;
+                        .classInfo {
+                            flex: 6.7;
                         }
     
-                        .transactionAmount {
-                            flex: 3;
+                        .classAttendance {
+                            flex: 3.3;
                             text-align: right;
+                            display: flex;
+                            span {
+                                width: 33.33%;
+                                display: block;
+                                text-align: center;
+                            }
                         }
                     }
                 }
