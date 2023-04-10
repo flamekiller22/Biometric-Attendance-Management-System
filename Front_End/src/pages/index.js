@@ -1,5 +1,3 @@
-// import { unstable_getServerSession } from 'next-auth'
-// import { authOptions } from './api/auth/[...nextauth]'
 import Head from 'next/head'
 import AverageAttendance from '../components/AverageAttendance/AverageAttendance'
 import SiteHeader from '../components/navigation/header/header'
@@ -73,38 +71,6 @@ export async function getServerSideProps(context) {
   if (total === 0) total = '-'
   else total = Math.round(total / count)
   const attendance = { average: total }
-
-  // const balance = await fetch(`http://127.0.0.1:5000/check-balance?email=${email}`).then(res => res.json())
-  // const tranhist = await fetch(`http://127.0.0.1:5000/transaction-history?email=${email}`).then(res => res.json())
-
-  // const attendance = { average: 78 }
-  // const attendanceHistory = [
-  //   {
-  //     class_id: 1,
-  //     class_name: 'DLD',
-  //     attendance_percentage: 76
-  //   },
-  //   {
-  //     class_id: 2,
-  //     class_name: 'Math',
-  //     attendance_percentage: 78
-  //   },
-  //   {
-  //     class_id: 3,
-  //     class_name: 'ECE',
-  //     attendance_percentage: 80
-  //   },
-  //   {
-  //     class_id: 4,
-  //     class_name: 'English',
-  //     attendance_percentage: 76
-  //   },
-  //   {
-  //     class_id: 5,
-  //     class_name: 'Forensics',
-  //     attendance_percentage: 80
-  //   },
-  // ]
 
   return {
     props: {

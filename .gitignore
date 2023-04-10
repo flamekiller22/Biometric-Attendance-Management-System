@@ -1,28 +1,28 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
+/Front_End/node_modules
+/Front_End/.pnp
 .pnp.js
 
 # testing
-/coverage
+/Front_End/coverage
 
 # next.js
-/.next/
-/out/
+/Front_End/.next/
+/Front_End/out/
 
 # production
-/build
+/Front_End/build
 
 # misc
 .DS_Store
 *.pem
 
 # debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+/Front_End/npm-debug.log*
+/Front_End/yarn-debug.log*
+/Front_End/yarn-error.log*
 .pnpm-debug.log*
 
 # local env files

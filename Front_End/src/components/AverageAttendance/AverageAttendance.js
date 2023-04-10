@@ -1,4 +1,3 @@
-import { getSession } from 'next-auth/react';
 import styles from './averageAttendance.module.scss';
 
 export default function AverageAttendance({ attendance }) {
